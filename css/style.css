@@ -1,0 +1,28 @@
+/* general reset formatting section */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* html formatting section */
+html{
+    background-color: lightblue;
+}
+
+/* container formatting section */
+.container{
+    color: grey;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* card-body formatting section */
+.card-body{
+    background-color: lightcyan;
+    border: 1.5px dashed black;
+}
+
+/* p formatting section */
+p{
+    color: darkblue;
+}
