@@ -129,20 +129,20 @@ class Kennel extends Products
 // remember to implement array of array for heach type
 $products = [
     // dog data
-    // pistacchio type product from "exclusion diet" production
-    $pistachio = new Food("Exclusion Diet", "food",  new Categories("Dog"), 15.00, "Salt, Pork and Peas", 15),
+    // meat & vegetables type product from "exclusion diet" production
+    $dog_food = new Food("Exclusion Diet", "food",  new Categories("Dog"), 15.00, "Salt, Pork and Peas", 15),
     // dog peluche
-    $peluche = new Toys("Bone", "toys", new Categories("Dog"), 10.00, "white", "plastic", "Medium"),
+    $dog_peluche = new Toys("Bone", "toys", new Categories("Dog"), 10.00, "white", "plastic", "Medium"),
     // dog meat food
-    $meat = new Food("Pedigree Adult", "food", new Categories("Dog"), 11.50, "Beef and Vegetables", 10),
+    $dog_food = new Food("Pedigree Adult", "food", new Categories("Dog"), 11.50, "Beef and Vegetables", 10),
 
     // cat data
     // fish product from "natural trainer" production
-    $fish = new Food("Natural Trainer", "food", new Categories("Cat"), 12.00, "Salt and Salmon", 27),
+    $cat_food = new Food("Natural Trainer", "food", new Categories("Cat"), 12.00, "Salt and Salmon", 27),
     // cat peluche
-    $peluche = new Toys("Fish puppet", "toys", new Categories("Cat"), 28.99, "light blue", "fabric", "Small"),
+    $cat_peluche = new Toys("Fish puppet", "toys", new Categories("Cat"), 28.99, "light blue", "fabric", "Small"),
     // cat fish food
-    $fish_1 = new Food("Virtus Cat Adult", "food", new Categories("Cat"), 13.00, "Tuna with Shrimps", 17),
+    $cat_food = new Food("Virtus Cat Adult", "food", new Categories("Cat"), 13.00, "Tuna with Shrimps", 17),
 
     // dog & cat data
     $dog_kennel = new Kennel("Dog Kennel", "kennel", new Categories("Dog"), 200.00, "Velvet", "Medium"),

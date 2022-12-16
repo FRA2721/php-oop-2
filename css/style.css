@@ -20,9 +20,15 @@ html{
 .card-body{
     background-color: lightcyan;
     border: 1.5px dashed black;
+    border-radius: 50px;
 }
 
 /* p formatting section */
 p{
     color: darkblue;
+}
+
+/* col formatting section */
+.col{
+    width: 200px;
 }
